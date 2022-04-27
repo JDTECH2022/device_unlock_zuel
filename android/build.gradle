@@ -32,7 +32,6 @@ android {
     }
     defaultConfig {
         minSdkVersion 21
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -42,6 +41,4 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    api "androidx.core:core:1.1.0"
-    api "androidx.fragment:fragment:1.1.0"
 }
