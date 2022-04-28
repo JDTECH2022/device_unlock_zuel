@@ -5,8 +5,10 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 
-class DeviceUnlockPlugin(registrar: Registrar) : MethodCallHandler {
+
+class DeviceUnlockPlugin(registrar: Registrar) : FlutterPlugin, MethodCallHandler {
 
   private val deviceUnlockManager = DeviceUnlockManager(registrar.activity())
 
