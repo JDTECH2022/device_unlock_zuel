@@ -1,6 +1,6 @@
 name: device_unlock_zuel
 description: A Flutter plugin to request the device unlock screen. This plugin offers a simple way to check the user identity using the default device security.
-version: 0.0.4
+version: 0.0.5
 homepage: https://zuelpay.com
 
 environment:
